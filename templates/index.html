@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Fraud Detection</title>
+
+<link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Fraud Detection System</h1>
+
+<form action="/predict" method="POST" enctype="multipart/form-data">
+
+<input type="file" name="file">
+
+<button>Predict</button>
+
+</form>
+
+</div>
+
+</body>
+
+</html>
